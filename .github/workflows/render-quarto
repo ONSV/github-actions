@@ -1,6 +1,0 @@
-name: quarto-render
-
-on:
-  push:
-    branches:
-      - main
