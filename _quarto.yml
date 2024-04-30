@@ -1,4 +1,2 @@
 project:
   type: default
-  render: 
-    - "test.qmd"
