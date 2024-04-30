@@ -1,3 +1,3 @@
 # github-actions
 
-Repositório de teste para GitHub Actions
+Repositório para testar GitHub Actions
