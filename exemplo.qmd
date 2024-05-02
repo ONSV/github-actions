@@ -1,0 +1,11 @@
+---
+title: GitHub Actions Test
+description: Teste de criação de *workflow* para renderizar e publicar relatório em Quarto Markdown
+format: onsvpub-html
+date: last-modified
+lang: pt-br
+title-block-banner: true
+editor: source
+---
+
+Este é um teste para Actions quando há mais de um documendo Quarto Markdown.

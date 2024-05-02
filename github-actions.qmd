@@ -5,6 +5,7 @@ format: onsvpub-html
 date: last-modified
 lang: pt-br
 title-block-banner: true
+editor: source
 ---
 
 ## Exemplo de Actions com R
