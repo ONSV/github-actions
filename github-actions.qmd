@@ -7,6 +7,21 @@ lang: pt-br
 title-block-banner: true
 ---
 
-## Hello world
+## Exemplo de Actions com R
 
-Lorem ipsum dolor
+Para usar o Actions junto com Quarto e R é necessário utilizar o \`renv\` para que as dependências sejam instaladas pelo workflow.
+
+```{r}
+#| echo: true
+
+library(ggplot2)
+
+data <- AirPassengers
+
+df <- data.frame(y = as.matrix(data), date = (time(data)))
+
+ggplot(df, aes(date, y)) +
+  geom_line() + 
+  geom_point(size = 1) +
+  geom_smooth()
+```
